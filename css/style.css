@@ -186,4 +186,5 @@ body {
 .project-desciption a:hover {
     color: var(--secondary-color);
     background-color: var(--branding-color);
+    box-shadow: 4px 4px var(--default-color);
 }
