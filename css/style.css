@@ -180,17 +180,17 @@ body {
     box-shadow: 4px 4px var(--default-color);
 }
 
-.content-section {
+.about-section {
     padding: 160px 70px;
     background-color: var(--background-color);
 }
 
-.content-wrapper {
+.about-wrapper {
     display: grid;
     grid-template-columns: 500px 700px;
 }
 
-.content h1 {
+.about-description h1 {
     font-size: 64px;
     line-height: 80px;
     color: var(--primary-color);
@@ -198,29 +198,24 @@ body {
 
 }
 
-.content h2 {
+.about-description h2 {
     font-size: 18px;
     line-height: normal;
     margin-top: 28px;
     margin-bottom: 28px;
 }
 
-.content h3 {
-    font-size: 24px;
-    line-height: 1.5;
-}
-
-.content p {
+.about-description p {
     opacity: 0.7;
     line-height: 1.4;
     margin-bottom: 58px;
 }
 
-.content {
+.about-description {
     margin: 30px;
 }
 
-.content-image {
+.about-image {
     width: 560px;
     height: 560px;
     border: 8px solid var(--branding-color);
@@ -271,4 +266,95 @@ body {
 
 .work-image:hover {
     transform: scale(1.2);
+}
+
+.contact-section {
+    padding: 150px 70px;
+}
+
+.contact-section h1 {
+    color: var(--primary-color);
+    font-family: var(--heading-font-family);
+    font-size: 64px;
+    line-height: normal;
+    margin: 70px 0 0 60px;
+}
+
+.contact-section h2 {
+    font-size: 54px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact-section p {
+    font-size: 18px;
+    line-height: normal;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-form {
+    margin: 30px auto 0;
+    width: 675px;
+}
+
+.contact-form span {
+    color: var(--branding-color);
+    font-weight: 700;
+}
+
+.contact-form input,
+textarea {
+    border-radius: 6px;
+    border: 1px solid var(--primary-color);
+    box-shadow: 0 1px 4px #00000008;
+    font-size: 18px;
+    font-family: var(--default-font-family);
+    margin-top: 10px;
+    margin-bottom: 16px;
+    padding: 10px;
+}
+
+.contact-form input {
+    height: 50px;
+}
+
+.contact-form input:focus,
+textarea:focus {
+    outline: 0;
+    border: 2px solid var(--default-color);
+}
+
+.contact-form__row {
+    display: grid;
+    grid-template-columns: 330px 330px;
+    justify-content: space-between;
+}
+
+.contact-form input#name,
+input#email {
+    display: block;
+    width: 100%;
+}
+
+.contact-form input#subject {
+    display: block;
+    width: 100%;
+}
+
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    height: 130px;
+}
+
+.contact-form button {
+    display: block;
+    margin: 0 auto;
+    border: none;
 }

@@ -40,5 +40,66 @@
         </ul>
       </nav>
     </header>
+    <section class="contact-section">
+      <div class="contact-wrapper">
+        <h1>Let's get in touch!</h1>
+        <div>
+          <img src="images/contact-me.png" alt="Contact me" />
+        </div>
+      </div>
+
+      <h2>Contact me</h2>
+      <p>
+        If you’d like to chat about a project or just have question, please fill
+        in the form below. <br />
+        I aim to get back within 2 days.
+      </p>
+
+      <form
+        action="https://formspree.io/f/xleydjlj"
+        method="POST"
+        class="contact-form"
+      >
+        <div class="contact-form__row">
+          <div>
+            <label for="name">Name <span>*</span> </label>
+            <input
+              id="name"
+              name="name"
+              type="text"
+              placeholder="Enter your name..."
+              required
+            />
+          </div>
+          <div>
+            <label for="email">Email <span>*</span> </label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="Enter your email..."
+              required
+            />
+          </div>
+        </div>
+        <label for="subject">Subject <span>*</span> </label>
+        <input
+          id="subject"
+          name="subject"
+          type="text"
+          required
+          placeholder="Enter the subject..."
+        />
+
+        <label for="message">Message <span>*</span> </label>
+        <textarea
+          id="message"
+          name="message"
+          required
+          placeholder="Enter your message..."
+        ></textarea>
+        <button type="submit" class="btn-branding">Send message</button>
+      </form>
+    </section>
   </body>
 </html>
