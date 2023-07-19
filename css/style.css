@@ -227,3 +227,48 @@ body {
     border-radius: 50%;
     margin-left: 100px;
 }
+
+.work-section {
+    padding: 160px 70px;
+}
+
+.work-section h1 {
+    color: var(--primary-color);
+    font-family: var(--heading-font-family);
+    font-size: 64px;
+    line-height: normal;
+    margin-bottom: 100px;
+}
+
+.work-section h3 {
+    color: var(--primary-color);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+.work-section p {
+    font-size: 14px;
+    line-height: normal;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.work-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px 60px;
+}
+
+.work-image {
+    width: 570px;
+    border-radius: 10px;
+    transition: all 150ms ease-in-out;
+}
+
+.work-image:hover {
+    transform: scale(1.2);
+}
