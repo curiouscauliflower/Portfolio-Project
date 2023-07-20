@@ -19,43 +19,65 @@
     ></script>
   </head>
   <body>
-    <header>
-      <nav class="navbar">
-        <a href="/index.html">
-          <img src="images/logo.png" class="logo" alt="Logo Hanna T." />
-        </a>
-        <ul>
-          <li class="active">
-            <a href="/index.html">Home</a>
-          </li>
-          <li>
-            <a href="/about.html">About</a>
-          </li>
-          <li>
-            <a href="/work.html">Work</a>
-          </li>
-          <li>
-            <a href="/contact.html">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <section class="about-section">
-      <div class="about-wrapper">
-        <div class="about-description">
-          <h1>Hi, I am Hanna Tkach</h1>
-          <h2>A Frontend Developer based in Ukraine</h2>
-          <p>
-            It should be written here that I am very talented and ambitious
-            Frontend Developer etc. I will write about it a bit later. Coming
-            soon...
-          </p>
-          <a href="/work.html" class="btn-branding">View all projects</a>
+    <div class="container">
+      <header>
+        <nav class="navbar">
+          <a href="/index.html">
+            <img src="images/logo.png" class="logo" alt="Logo Hanna T." />
+          </a>
+          <ul>
+            <li class="active">
+              <a href="/index.html">Home</a>
+            </li>
+            <li>
+              <a href="/about.html">About</a>
+            </li>
+            <li>
+              <a href="/work.html">Work</a>
+            </li>
+            <li>
+              <a href="/contact.html">Contact</a>
+            </li>
+          </ul>
+          <div class="burger-menu">
+            <input id="menu-toggle" type="checkbox" />
+            <label class="menu-button-container" for="menu-toggle">
+              <div class="menu-button"></div>
+            </label>
+            <ul class="menu">
+              <li class="active">
+                <a href="/index.html">Home</a>
+              </li>
+              <li>
+                <a href="/about.html">About</a>
+              </li>
+              <li>
+                <a href="/work.html">Work</a>
+              </li>
+              <li>
+                <a href="/contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <section class="about-section">
+        <div class="about-wrapper">
+          <div class="about-description">
+            <h1>Hi, I am Hanna Tkach</h1>
+            <h2>A Frontend Developer based in Ukraine</h2>
+            <p>
+              It should be written here that I am very talented and ambitious
+              Frontend Developer etc. I will write about it a bit later. Coming
+              soon...
+            </p>
+            <a href="/work.html" class="btn-branding">View all projects</a>
+          </div>
+          <div>
+            <img src="images/me.png" class="about-image" alt="Me" />
+          </div>
         </div>
-        <div>
-          <img src="images/me.png" class="about-image" alt="Me" />
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
   </body>
 </html>
