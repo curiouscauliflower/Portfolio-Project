@@ -339,6 +339,7 @@ input#email {
 }
 
 .contact-form button {
+    font-family: var(--default-font-family);
     font-size: 18px;
     display: block;
     margin: 0 auto;
@@ -410,6 +411,23 @@ input#email {
     background: var(--branding-color);
 }
 
+.developer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: normal;
+}
+
+.developer a {
+    color: #c15075;
+    font-weight: 700;
+}
+
+.developer a:hover {
+    color: var(--default-color);
+    text-decoration: underline;
+}
+
 /* Responsive */
 
 @media (max-width: 1360px) {
@@ -450,7 +468,6 @@ input#email {
     }
 }
 
-/*Large: 992px - 1199px */
 @media (max-width: 1199px) {
     .project-desciption a {
         margin-left: 100px;
@@ -467,7 +484,6 @@ input#email {
     }
 }
 
-/* Medium: 768px - 991px */
 @media (max-width: 991px) {
     .container {
         padding: 0;
@@ -652,7 +668,6 @@ input#email {
     }
 }
 
-/* Small: 576px - 767px */
 @media (max-width: 767px) {
     .navbar {
         padding: 20px 0 20px 20px;
@@ -723,7 +738,6 @@ input#email {
         width: 476px;
     }
 
-
     .contact-section h2 {
         font-size: 44px;
     }
@@ -732,7 +746,6 @@ input#email {
         width: 476px;
         margin: 30px auto;
     }
-
 
     .contact-form {
         width: 476px;
@@ -755,11 +768,14 @@ input#email {
     }
 }
 
-/* Extra small: 0px (320px) - 575px */
 @media (max-width: 575px) {
     .logo {
         width: 130px;
         height: 25px;
+    }
+
+    .menu__btn {
+        right: 20px;
     }
 
     .hero-section p {
@@ -770,10 +786,14 @@ input#email {
         font-size: 72px;
     }
 
+    .hero-section h2 {
+        width: 300px;
+        margin: 30px auto 50px;
+    }
+
     .projects-section h2 {
         font-size: 40px;
     }
-
 
     .project-image {
         width: 300px;
@@ -792,6 +812,11 @@ input#email {
         margin-left: 60px;
     }
 
+    .about-section {
+        padding: 100px 0 30px 16px;
+
+    }
+
     .about-description h1 {
         font-size: 44px;
         line-height: normal;
@@ -803,14 +828,18 @@ input#email {
 
     .about-description {
         width: 300px;
-        margin: 20px 0 20px 30px;
+        margin: 20px 0 80px 30px;
     }
 
     .about-image {
         width: 300px;
         height: 300px;
         display: block;
-        margin: 60px auto;
+        margin: 60px auto 0;
+    }
+
+    .work-section {
+        padding: 100px 20px 10px;
     }
 
     .work-section h1 {
@@ -853,7 +882,15 @@ input#email {
 
     .footer-wrapper {
         display: block;
-        padding: 40px 90px;
+        padding: 40px 100px;
     }
 
+    .footer-btn {
+        padding-top: 54px;
+        padding-left: 8px;
+    }
+
+    .developer {
+        padding: 0 20px;
+    }
 }
